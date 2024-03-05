@@ -1,0 +1,137 @@
+body { text-align: justify; margin:0px;color: #000; font-family: Arial ;font-size:11px; }
+table{text-align: justify;width:100%;}
+.container{
+  width: 1140px;
+  margin: 0px auto;
+}
+h1{
+  font-size: 15px;
+}
+.text-page {
+    font-size: 11px;
+}
+.text-color {
+    color: #d13030;
+    font-weight: bold;
+}
+h2 {
+    font-size: 15px;
+    text-align: center;
+    padding-top:20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+h3 {
+    font-size: 15px;
+}
+
+.td-text {
+    font-size: 11px;
+}
+.bundle {
+    font-size: 11px;
+    font-weight: bold;
+}
+.bundles {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.table-p {
+    font-size: 11px;
+}
+.section5-formSpant {
+    font-size: 9px !important;
+    color: #9f9f9f;
+}
+.checkbox {
+    width: 100px;
+    background: #f2f2f2;
+}
+
+.columnb {
+    background: grey;
+    color: #fff;
+    padding: 3px 10px;
+}
+.column-1 {
+    padding: 4px 10px;
+    background: #808080;
+    color: #fff;
+    width: 50%;
+}
+.column-2 {
+    background: #f2f2f2;
+    border: 1px solid #808080;
+    text-align: right;
+    padding: 4px 10px;
+    width: 20%;
+}
+
+.column-3,.column-4,.column-5 {
+    border: 1px solid #808080;
+    text-align: center;
+    padding: 4px 0px;
+    width: 10%;
+}
+
+.table-data {
+    border: 1px solid;
+    padding: 5px 0px;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-weight: bold;
+}
+h1.heading-table {
+    text-align: center;
+    font-weight: normal;
+    font-size: 15px;
+    margin: 8px 0px;
+}
+
+.checkbox {
+    width: 100px;
+    background: #f2f2f2;
+}
+
+.table {
+    border: 2px solid #000;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.text-background {
+    background: #f2f2f2;
+    padding: 3px 10px;
+}
+
+.heading-table {
+    font-weight: 600;
+}
+
+.bottom-div {
+    border: 1px solid #000;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.notification {
+    background: grey;
+    padding: 6px;
+    color: #fff;
+    padding-right: 100px;
+}
+.checkboxb {
+    background: #f2f2f2;
+    padding: 5px 100px 6px 6px;
+}
+.try{
+    text-align: left !important;
+}
+.table-data2,.table-data3,.table-data4 {
+    font-size: 10px;
+}
+
+.table-data5 {
+    font-size: 9px;
+}

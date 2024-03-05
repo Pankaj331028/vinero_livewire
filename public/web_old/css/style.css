@@ -1,0 +1,1627 @@
+
+body{
+    font-family: 'futura';
+    margin: 0;
+    color: #000;
+    line-height: 24px;
+    background: #ffffff;
+}
+
+:focus{
+    box-shadow: none !important;
+    border-color: none !important;
+}
+
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.tabs-offers {
+  padding: 6px 9px !important;
+  color: #fff !important;
+}
+.tabs-offers:active{
+  background-color: #edd84c !important;
+  color: #212529 !important;
+}
+.tabs-offers.active{
+  background-color: #edd84c !important;
+  color: #212529 !important;
+}
+.table-bordered2 tr td {
+  font-family: 'futura';
+  color: #383838;
+}
+@font-face{
+			font-family:'futura';
+			src: url(/web/fonts/FuturaPTLight.otf)
+		}
+@font-face{
+			font-family:'futurabold';
+			src: url(/web/fonts/FuturaPTDemi.otf);
+		}
+@font-face{
+			font-family:'futuramedium';
+			src: url(/web/fonts/FuturaPTMedium.otf);
+		}
+@font-face{
+			font-family:'extrafutura';
+			src: url(/web/fonts/FuturaPTHeavy.otf);
+		}
+@font-face{
+			font-family:'futuraPTlogo';
+			src: url(/web/fonts/FuturaPTBook.otf);
+		}
+
+h1, h2, h3, h4, h5, h6{font-weight: 300;}
+a{text-decoration: none !important; color: #000; position: relative;}
+a , img, .header, .card, :before, :after {-webkit-transition: all 0.2s linear; -moz-transition: all 0.2s linear; transition: all 0.2s linear;}
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.alignheader {
+    display: flex;
+}
+.logo{
+color: #fff;
+font-size: 40px;
+font-weight: 600;
+}
+#click{
+display: none;
+}
+.menu-btn{
+color: #fff;
+font-size: 20px;
+display: none;
+}
+.menu-btn i.bart{
+display: none;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  z-index: 1000;
+}
+nav ul li{
+margin: 0px 15px;
+position: relative;
+}
+img.headerbars3 {
+  width: 25px;
+  right: 83px;
+  display: block;
+  position: absolute;
+  top: 21px;
+}
+img.headerbars2 {
+  width: 20px;
+  right: 0;
+  display: none;
+  margin-right: -4px;
+}
+.menu-btn.addclass .headerbars2 {
+  display: block;
+}
+.menu-btn.addclass .headerbars3 {
+  display: none;
+}
+.topheader.shrink {
+  box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+  background: #ececed;
+}
+nav ul li a{
+text-decoration: none;
+color: #000;
+font-size: calc(10px + (13.5 - 10) * ((100vw - 300px) / (1600 - 300)));
+font-weight: bolder;
+letter-spacing: .1px;
+transition: height .2s ease;
+font-family: futuraPTlogo;
+}
+#nav li a.active {
+  border-bottom: 2px solid #f4df4e;
+  margin-top: 10px;
+  padding-bottom: 5px;
+}
+.topheader.shrink img.logoimg{
+width: 106px;
+}
+.topheader.shrink button.btn.btn-tops {
+  height: 64px ;
+  width: 92px;
+}
+nav ul li a:hover{
+color: #000;
+}
+
+.submitContactt {
+  width: 100%;
+  border-radius: 0px;
+  margin-top: -24px;
+  background: #383838;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.logoImg {
+  width: 134px;
+  cursor: pointer;
+}
+.btn.btn-tops {
+  height: 81px;
+  right: 0;
+  position: absolute;
+  font-size: 20px;
+  /* transform: rotate(-270deg); */
+  width: 92px;
+  border-radius: 0;
+  color: #f4df4e;
+  background: #212529;
+  transition: all .2s ease;
+}
+.topheader {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 2px rgb(0 0 0 / 20%);
+}
+.modal-dialog {
+  position: relative;
+  top: 7%;
+}
+button.hometabbts {
+  padding: 0px;
+}
+
+h1{
+ font-size: 40px;
+}
+h4{
+ font-size: 24px;
+}
+h3{
+ font-size: 30px;
+}
+h2{
+ font-size: 32px;
+}
+a.navbar-brand img {
+   width: 165px;
+}
+.modal-backdrop {
+   position: inherit;
+   top: 0;
+   left: 0;
+   z-index: 1040;
+   width: 100vw;
+   height: 100vh;
+}
+.homeFluid {
+  padding: 0px !important;
+  margin: 0;
+}
+button.btn.homesearch {
+  margin-top: 40px;
+  background: #f4e13d;
+  border-radius: 0;
+  color: #282d31;
+  font-family: futuramedium;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+a.redefinigbtn {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background: #fff;
+  padding: 15px;
+}
+.redefinigbtn img {
+    width: 20px;
+    margin: -1px 0px;
+}
+.caption-inner h1 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+a#compressbutton {
+  background: #f4df4e;
+  font-family: futuramedium;
+}
+a#compressbutton:hover {
+  background: #ffca2c;
+}
+.welcome-sec {
+  background: url(../images/welcome-bg.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  background-position: center;
+  padding-bottom: 200px;
+}
+.modal{
+background: #08070794;
+}
+.pattern:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  background: -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+}
+img.xmarkImg {
+  width: 15px;
+}
+.signup-sec {
+  background: url(../images/House-Icon-Watermark.png) no-repeat 0.5vw 1vw;
+  position: relative;
+}
+.signup-sec .bg-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 930px;
+  width: 100%;
+}
+.bg-img {
+  position: relative;
+  overflow: hidden;
+}
+.signup-img {
+    max-width: 300px;
+    width: 100%;
+    margin-top: 15px;
+}
+.siguunuline {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  opacity: 1;
+}
+.formSignin {
+    background: #f4df4e;
+    padding: 12px;
+    height: 100%;
+    position: absolute;
+    top: -435px;
+}
+.skylingi {
+    margin-top: -84px;
+}
+input#\#2 {
+  padding-left: 32px !important;
+}
+input#\#1{
+padding-left: 32px !important;
+}
+.calconic--controled_input--controled svg:first-of-type {
+  left: -8px !important;
+}
+select.form-select.sellform:focus {
+  border: 2px solid #383838;
+}
+.informatinBOx p {
+  color: #383838;
+  padding: 0px 38px;
+  font-size: 16px;
+}
+hr.siguunuline {
+  width: 28%;
+}
+.informatinBOx h3 {
+  font-weight: 300;
+  color: #383838;
+}
+.form-control:focus{
+  color: #212529;
+  background-color: #fff;
+  border-color: #383838;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgb(33 37 41 / 25%) !important;
+}
+.sellform:focus{
+color: #212529;
+background-color: #fff;
+border-color: #383838;
+outline: 0;
+border: 2px solid #000;
+border-radius: 5px;
+box-shadow: none !important;
+}
+.proactive p {
+  line-height: 43px;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'futura';
+}
+.headingProactive h1 {
+  font-weight: 300;
+  color: #383838;
+}
+.danielmarket {
+  margin-top: -13px;
+}
+strong.proac {
+  font-family: 'futurabold';
+}
+.headingProactive h3 {
+  font-weight: 300;
+  color: #383838;
+  font-size: 1.75rem;
+}
+.tradei th {
+    font-size: 23px;
+    font-family: 'extrafutura';
+}
+.ssr {
+  padding: 30px 0px;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+}
+.tradei{
+text-transform: capitalize;
+}
+.headingProactive h1 {
+  text-transform: uppercase;
+  color: #383838;
+}
+.tablebg {
+  padding: 50px;
+  background: #f4df4e;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+span.vscircle {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.pattern {
+  position: relative;
+  padding: 50px 0px;
+}
+footer {
+    padding: 100px 0px;
+    text-align: center;
+    position: relative;
+    background-color:#212529;
+}
+.footer-bgimg{
+    opacity: .2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    filter: grayscale(100%);
+}
+section.buyingHOme {
+  padding: 100px 0px;
+  position: relative;
+  background: #f4df4e;
+}
+.footerText span {
+  color: #f4df4e;
+  letter-spacing: 10px;
+}
+.footerText h1 {
+  color: #fff;
+  margin: 24px 0px;
+  font-weight: 300;
+}
+.contactSubText {
+  margin-left: -26px;
+}
+.border-ends {
+  text-align: right;
+  border-right: 1px solid #fff;
+  margin-left: -47px;
+}
+.bordernone {
+  text-align: start;
+}
+.border-ends a {
+  color: #f4df4e;
+  text-decoration: none;
+}
+.bordernone a {
+  color: #f4df4e;
+  text-decoration: none;
+}
+.socialMediaIcon {
+  margin: 50px 0px;
+}
+.iamana {
+    font-weight: 900;
+    font-family: futurabold;
+    color: #383838;
+}
+.socialMediaIcon a {
+  margin: 0 5px;
+  font-size: 21px;
+  color: #fff;
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  transition: all .5s ease-in;
+  border: 1px solid #f4df4e;
+  align-items: center;
+  justify-content: center;
+}
+small.moresmall {
+  margin-top: 4px;
+  display: block;
+}
+.moreInfo {
+  margin-top: -1px;
+}
+.socialMediaIcon a:hover {
+  background: #f4df4e;
+  color: #212529;
+}
+h4.caldare {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 1;
+}
+strong.makeoffer {
+  font-family: 'futurabold';
+}
+.whoarewe h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #383838;
+}
+.btn-warning {
+  color: #000;
+  background-color: #f4df4e;
+  border-color: #f4df4e;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: background-color .5s ease;
+}
+.btn-warning{
+  background-color: #ffca2c;
+}
+.collapsediv h4 {
+  color: #383838;
+}
+h4.averageh4 {
+  font-weight: 400;
+}
+.table-bordered {
+  border-width: 1px 0;
+  color: #212529;
+}
+.table-bordered tr td {
+    font-family: extrafutura;
+    color: #383838;
+}
+.whoarewe p {
+  color: #383838;
+  font-weight: 300;
+}
+.subfooter {
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+img.footerLogo {
+  width: 100px;
+  margin-right: 10px;
+}
+.footerte {
+  color: #383838;
+  font-size: 16px;
+}
+.footerte a {
+  color: #383838;
+  font-size: 16px;
+  text-decoration: none;
+}
+.left-bdr:before {
+  content: '';
+  width: 2px;
+  height: 100px;
+  background: #f4df4e;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.left-bdr h1 {
+  font-weight: 100 !important;
+  color: #fff;
+  font-size: 41px;
+}
+.left-bdr {
+  padding-left: 60px;
+  position: relative;
+}
+.boxex {
+    padding: 25px 30px;
+    box-sizing: border-box;
+    background: #fff;
+    transition: background-color .5s linear;
+    min-height: 115px;
+}
+.sellwel {
+    margin-left: -22px;
+}
+.boxex:hover{
+background-color: #f4df4e;
+}
+.boxex h4 {
+  color: #383838;
+  font-family: futurabold;
+}
+p.dolsav {
+  color: #fff;
+  font-size: 16px;
+}
+.boxex p {
+  color: #383838;
+  font-family: 'futurabold';
+}
+.built-with-calconic, .built-with-calconic a {
+  color: #877e7e!important;
+  line-height: 1!important;
+}
+tbody tr td {
+  font-weight: 600;
+}
+a.nav-link::after {
+  position: relative;
+  width: 0;
+  top: 10px;
+  transition: width .2s linear;
+  background: yellow;
+}
+a.nav-link:hover::after {
+  position: absolute;
+  width: 100%;
+}
+section.realestate {
+  background-image: url(../images/banner.jpg);
+  padding: 50px 0px;
+  background-size: cover;
+  background-position: center;
+}
+.estimateBox {
+  padding: 20px;
+  background: rgb(39 45 48 / 90%);
+}
+.iconHovcer {
+  font-size: 50px;
+  margin-right: 20px;
+  color: #f4df4e;
+  transition: color .5s ease;
+}
+.boxhoverIcon:hover .iconHovcer {
+  color: #383838;
+}
+.textestimate h2 {
+  display: block;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f4df4e;
+  margin-bottom: 5px;
+}
+.textestimate h2 span {
+font-size: 18px;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+select.form-select {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'futura';
+    font-weight: 800;
+    border-radius: 0;
+    height: 40px;
+    appearance:auto;
+    border: 1px solid #62696f;
+    background: #282d31;
+}
+select.form-select option {
+    font-family: 'futura';
+    font-weight: 800;
+}
+select.form-select:focus{
+  border: 1px solid #62696f;
+}
+.propertyCommission h4 {
+  font-size: 1.5rem;
+  font-family: futurabold;
+  font-weight: 700;
+}
+.form-label.exra {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
+.formhomelabel {
+  color: #fff;
+}
+.propertyCommission {
+  background: #f4df4e;
+  padding: 18px;
+  text-align: center;
+  border-radius: 3px;
+  color: #383838;
+  position: absolute;
+  box-sizing: border-box;
+  bottom: -50px;
+}
+.selbuy h3 {
+  font-weight: 300;
+}
+button.btndetails {
+  font-family: 'futuramedium';
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 0px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+img.welicon {
+  width: 52px;
+  margin-right: 20px;
+}
+span.strech {
+    letter-spacing: 10px;
+    color: #f4df4e;
+    text-transform: uppercase;
+}
+.ourproject {
+    margin-left: -10px;
+}
+a.buysel {
+  text-decoration: none;
+  color: #383838;
+  text-transform: uppercase;
+  font-weight: 300;
+  border-right: 1px solid #383838;
+}
+a.buysell {
+  text-decoration: none;
+  color: #383838;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+strong.realstee {
+  font-family: 'futurabold';
+}
+h1.needto {
+  color: #383838;
+  font-family: 'futura';
+  font-size: 42px;
+}
+h1.needtoo {
+    color: #383838;
+    font-family: 'futuramedium';
+    font-size: 42px;
+}
+.toolrow {
+    width: 79%;
+    margin: 0px auto;
+}
+h1.needtpo {
+  color: #383838;
+}
+.shadow.knowabout {
+  position: absolute;
+  top: -354px;
+}
+.sellsign {
+  font-family: 'futuramedium';
+  border-radius: 0;
+  padding: 6px;
+}
+.everybody {
+  margin-top: 19px;
+}
+.whatsellers {
+  background: #f4df4e;
+}
+h3.needsellers {
+    font-family: 'futurabold';
+    color: #383838;
+    font-size: 25px;
+}
+.strecht.e {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  color: #383838;
+}
+.patternsd:before {
+  content: '';
+  position: absolute;
+  left: 49px;
+  bottom: -199px;
+  height: 100%;
+  width: 543px;
+  background: -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  background: -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+}
+.buyneed:before {
+  content: '';
+  position: absolute;
+  left: 49px;
+  bottom: -199px;
+  height: 100%;
+  width: 543px;
+  background: -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  background: -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+}
+.sellneed:before {
+  content: '';
+  position: absolute;
+  left: 49px;
+  bottom: -199px;
+  height: 100%;
+  width: 543px;
+  background: -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -moz-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  background: -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), -webkit-radial-gradient(rgba(0,0,0,.2) 15%, transparent 15%), transparent;
+  -webkit-background-size: 15px 15px;
+  -moz-background-size: 15px 15px;
+  background-size: 15px 15px;
+}
+h1.realstatee {
+  margin-top: 0px;
+}
+.shadow.knowabout {
+    position: absolute;
+    width: 560px;
+    top: -111px;
+    left: 126px;
+}
+
+.textdiv p {
+  padding: 30px;
+  text-align: center;
+  background: #f2f3f4;
+  color: #31393d;
+  border-radius: 5px;
+}
+.propertyComm {
+  position: relative;
+  background: #f4df4e;
+  padding: 20px;
+  text-align: center;
+  border-radius: 3px;
+  color: #383838;
+  box-sizing: border-box;
+  bottom: -50px;
+}
+.first1 {
+  padding: 13px;
+  color: #212529;
+  background: #fff;
+}
+.first1 p {
+  margin-bottom: 0;
+}
+.sellformlabel {
+  color: #340e0e;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+select.form-select.sellform {
+    background: none;
+    color: #383838;
+    font-weight: unset;
+    border: 1px solid #d2d2d2;
+    font-size: 12px;
+    font-family: 'futuramedium';
+    appearance: auto;
+      height: 34px;
+}
+.sellform option {
+  color: #000;
+  font-family: futuramedium;
+}
+.bgcontact {
+  background-image: url(../images/House-Icon-Watermark.png);
+  background-repeat: no-repeat;
+}
+.sellform {
+    color: #383838;
+    height: 34px;
+    font-weight: unset;
+    font-size: 12px;
+    border-radius: 0px;
+    font-family: 'futuramedium';
+    border: 1px solid #d2d2d2;
+}
+span.dohave {
+  margin-bottom: 16px;
+  display: block;
+  color: #383838;
+  letter-spacing: .5;
+  margin-top: -16px;
+}
+.logininput {
+    margin: 3px 0px;
+    border: 2px solid #212529;
+    background: none;
+    border-radius: 0;
+    font-weight: 600;
+    font-family: 'futura';
+    font-size: 12px;
+    letter-spacing: .5;
+    height: 40px;
+}
+.searchsels {
+  background: #ccc;
+  border-radius: 0;
+  border: none;
+  font-size: 12px;
+  height: 34px;
+  width: 204px;
+  font-family: 'futuramedium';
+}
+.propertyComm h4 {
+  font-family: futurabold;
+  font-size: 30px;
+}
+.selbuy h3 {
+  font-size: 26px;
+}
+img.knowaboutsell {
+  position: absolute;
+  top: -340px;
+}
+section.toolsection {
+    display: block;
+    margin-top: 229px;
+}
+.boxone h4 img {
+  width: 29px;
+  margin-right: 20px;
+}
+.boxone h4 {
+  color: #383838;
+}
+.boxone {
+  padding: 20px;
+  border: 1px solid #bbb9b9;
+  margin: 10px;
+}
+.businessModel h1 {
+  font-weight: 300;
+  color: #383838;
+  text-transform: capitalize;
+}
+.businessModel a.btn.listnow {
+  margin: 10px 3px;
+  background: #f4df4e;
+  border-radius: 0;
+  padding: 10px 20px;
+  font-family: 'futuramedium';
+  font-size: 20px;
+  transition: all .5s linear;
+}
+.businessModel a.btn.listnow:hover {
+  background-color: #ffca2c;
+}
+.businessModel h6 {
+  font-weight: 300;
+  color: #212529;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.sellersneed p {
+  color: #383838;
+  text-align: left !important;
+}
+.contactus {
+  padding: 50px 0px;
+}
+.contactusText h3 {
+  font-weight: 300;
+  color: #383838;
+}
+.contactusText p {
+  font-weight: 300;
+  color: #383838;
+  margin: 20px 0px 60px;;
+}
+.contactusText{
+padding-bottom: 40px;
+}
+.formContactus {
+  background: #f4df4e;
+  padding: 20px 20px 0px;
+}
+.fhome {
+  border: 1px solid #62696f;
+  font-weight: 500;
+  color: #fff;
+  background: #282d31;
+  font-size: 12px;
+  border-radius: 0;
+}
+.fhome:focus {
+  background: none!important;
+    border: 1px solid #62696f;
+    color: #fff;
+  background: #282d31 !important;
+}
+.submitbtnhome {
+  background: #f4df4e;
+  padding: 47px 8px 18px;
+  margin: -42px -12px;
+}
+.formmore {
+  margin-top: -4px;
+}
+.formContactus h3 {
+  text-align: center;
+  font-weight: 300;
+  color: #383838;
+}
+.conttacthr{
+height: 2px;
+  display: block;
+  width: 100px;
+  margin: 0px auto;
+  opacity: 1;
+}
+.iama {
+  color: #383838;
+  position: absolute;
+}
+.form-check-label {
+  color: #fff;
+  cursor: pointer;
+}
+.textarea-messaget {
+    border: 2px solid #383838;
+    background: none;
+    border-radius: 0;
+    height: 40px;
+    font-weight: bold;
+    font-size: 13px;
+    overflow: hidden;
+    width: 100%;
+    padding: .375rem .75rem;
+  }
+  .form-check.form-check-inline {
+    cursor: pointer;
+}
+.textarea-messaget:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #383838;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(33 37 41 / 25%) !important;
+}
+.submitContact {
+  margin: -29px 0px 10px;
+  border-radius: 0;
+  background-color: #383838;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.contactuspageinput {
+    border: 2px solid #383838;
+    background: none;
+    border-radius: 0;
+    height: 40px;
+    font-weight: 800;
+    font-family: futura;
+    letter-spacing: .8;
+    font-size: 12px;
+}
+div#lumi-calculator-5fd980b787472b001ed21773__wrapper {
+  margin: 0px auto;
+}
+.welcome-sec .card:hover {
+  background: #f4df4e;
+}
+.card-text:last-child {
+  margin-bottom: 0;
+  font-weight: 300;
+  color: #383838;
+}
+.signupnows {
+    background: #f4df4e;
+    font-weight: 400;
+    font-family: 'futuramedium';
+}
+.signupnows img {
+    width: 31px;
+    margin-top: -6px;
+    margin-left: -7px;
+}
+.provert {
+  font-family: 'futurabold';
+}
+h1.propertysearching {
+  color: #383838;
+}
+.homesign {
+  background: #f4df4e;
+}
+h4.card-title {
+  color: #383838;
+}
+p.homep {
+  color: #383838;
+  margin-top: 15px;
+  font-size: 19px;
+}
+h1.explore {
+    color: #383838;
+    margin: 16px -7px;
+}
+.signupnows:hover {
+  background: #ffca2c;
+}
+.decor::after {
+content: "";
+  position: relative;
+  left: 0;
+  top: 24;
+  background: #eaeaea;
+  height: 2px;
+  width: 0%;
+  transition: all .8s ease;
+}
+.decor:hover::after {
+content: "";
+  position: absolute;
+  width: 100%;
+}
+.tdecor::after {
+content: "";
+  position: relative;
+  left: 0;
+  top: 28;
+  background: #383838;
+  height: .5px;
+  width: 0%;
+  transition: all .8s ease;
+}
+.tdecor:hover::after {
+content: "";
+  position: absolute;
+  width: 100%;
+}
+.ttdecor::after {
+content: "";
+  position: relative;
+  left: 0;
+  top: 28;
+  background: #f4df4e;
+  height: 1px;
+  width: 0%;
+  transition: all .8s ease;
+}
+.ttdecor:hover::after {
+content: "";
+  position: absolute;
+  width: 100%;
+}
+.subdetail {
+font-weight: 600 !important;
+}
+.subdetail:hover {
+  background: #ffca2c!important;
+}
+#pills-home-tab, #pills-profile-tab, #pills-contact-tab, #pills-contactu-tab {
+  background: none;
+}
+.addressbox {
+  background: #383838;
+  border-bottom: 1px solid #ccc !important;
+  border: 0px;
+  color: #fff;
+  border-radius: 0px;
+  letter-spacing: .5;
+}
+.accordion {
+  margin-top: 10px;
+}
+.userchecko:focus {
+  color: #fff !important;
+  background: none;
+}
+.addressbox:focus {
+  background: none !important;
+  color: white;
+  outline: none !important;
+  box-shadow: none !important;
+}
+div#pills-tabContent {
+  color: #fff;
+  background: #383838;
+}
+.accordion-item {
+  background: #383838;
+  color: #fff;
+  border: 1px solid rgb(244 223 78);
+}
+.tbselect {
+  color: #383838;
+}
+button.accordion-button {
+  background: #383838 !important;
+  font-weight: 700;
+}
+.accordion-button::after {
+  display: none;
+}
+p.subaccounp {
+  text-align: center;
+  color: #383838;
+}
+.signinfomore {
+    background: #f4df4e;
+    padding: 40px 12px 0px;
+    box-sizing: border-box;
+    margin-left: -21px;
+    min-height: 631px;
+    overflow-y: scroll;
+}
+.signinfomoreo {
+    background: #f4df4e;
+    padding: 20px 17px 0px;
+    box-sizing: border-box;
+}
+.radiochecktypebutton {
+  padding: 0;
+}
+.submitmoreInfo {
+  background: #383838;
+  color: #fff;
+  font-weight: 600;
+  padding: 7px;
+  display: block;
+  border: 0px;
+  width: 96%;
+  letter-spacing: 1;
+  margin: 0px auto;
+}
+h3.contacttextForm {
+  text-align: center;
+}
+.signformmore {
+    position: absolute;
+    top: -631px;
+}
+.videocaption h1 {
+    color: #fff;
+}
+.videocaption {
+  margin-top: 30%;;
+}
+.positiosig {
+    position: relative;
+}
+.buood {
+  padding: 6px 7px 0px;
+}
+section.signvideo {
+  position: relative;
+}
+.infors {
+  margin-top: 15px;
+}
+img.search.icon {
+    width: 25px;
+}
+.slidercaption {
+    position: absolute;
+    top: 44%;
+    left: 130px;
+    text-align: left;
+    width: 34%;
+}
+.sellsignup {
+    margin-top: -34px;
+}
+
+section.toolsectionbuy {
+    display: block;
+    margin-top: 245px;
+}
+
+.buyneed:before {
+    content: '';
+    position: absolute;
+    left: 29px;
+    bottom: -216px;
+    height: 100%;
+    width: 40%;
+  }
+
+
+/* accound css start */
+.accountText {
+    background: #efe03d !important;
+}
+.categorie {
+    color: #383838;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.typemethod h6 {
+  color: #383838;
+}
+.typemethod hr {
+  color: #000000;
+  opacity:1;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #212529;
+    background-color: #efe03d;
+    border-radius: 0;
+}
+.nav-pills .nav-link {
+    margin: 0px 0.5px;
+    border-radius: 0;
+    background: #212529;
+    border: 0;
+    color: #fff;
+}
+.accountlabel {
+    color: #383838;
+    margin-bottom: 3px;
+}
+.list-group-item {
+    padding-bottom: 15px;
+}
+.listgroup-resourses {
+    padding: 30px 30px 30px 40px;
+}
+.make-An-text {
+    background-color: #fff;
+}
+.offer-Submission h3 strong {
+    color: #383838;
+    text-transform: uppercase;
+    font-family: futurabold;
+}
+p.offerp{
+    color: #383838 !important;
+}
+.house-classic {
+    width: 300px !important;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+.offerlabel {
+    font-family: 'futura';
+    color: #212529;
+    font-weight: 400;
+}
+/* accound css end */
+
+.offertable {
+    font-size: 22px;
+}
+.make-an-offerButton button {
+    background: #f4df4e;
+    font-family: futuramedium;
+    border-radius: 0px;
+}
+.makeAnOffer-input {
+    border: 2px solid #212529;
+    border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: .3;
+    font-family: futura;
+    height: 40px;
+}
+select.offerselect {
+    background: none !important;
+    color: #212529;
+    font-size: 16px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-family: futuramedium;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    border: 1px solid #dee2e6;
+}
+select.offerselect:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%) !important;
+}
+.offerchoose {
+    font-size: 14px;
+    font-family: futura;
+    height: 40px;
+    border: 2px solid #212529;
+    border-radius: 0;
+    font-weight: 600;
+}
+ /* -- seller buyer dashboard -- */
+
+ .welcome-dashboard {
+  background: #383838;
+}
+.buyer-welcome h3 {
+  color: #f0e04d;
+  font-family: 'futura';
+  font-size: 18px;
+}
+.strong-text {
+  font-family: futurabold;
+}
+
+.offer {
+  background: #f0e04d;
+  height: 98px;
+  margin-top: 15px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  line-height: 12px;
+}
+.location-img {
+  width: 16px;
+}
+
+.location-span {
+  color: #fff;
+  font-size: 15px;
+}
+
+.offer-span {
+  font-size: 18px;
+  font-family: futura;
+  font-weight: 600;
+}
+
+.timetext {
+  font-family: futurabold;
+  font-size: 18px;
+}
+.svg-inline--fa.fa-calendar {
+  font-size: 17px;
+  color: #b6ae49;
+}
+.model-dashborad {
+  background: #fff;
+  border: 0px;
+  padding: 6px 12px;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 19px;
+}
+.offer-details {
+  padding: 14px 0px;
+}
+
+.date\&time {
+  font-size: 16px;
+}
+.text-p {
+  font-size: 19px;
+  color: #a09c82;
+  margin: 0;
+}
+.offer-listimg {
+  width: 20px;
+  margin-right: 20px;
+}
+.top {
+  display: block;
+  line-height: 25px;
+  margin-top: -10px;
+}
+.offer-table tr {
+  margin-bottom: 20px;
+  display: flex;
+  margin-top: 11px;
+}
+.soanoff {
+  font-weight: normal;
+}
+
+.welcome-dashboard {
+  box-sizing: border-box;
+  padding: 20px 0px 20px;
+  position: relative;
+}
+
+
+.offer-divimg {
+  width: 27px;
+}
+.offer-deadline {
+  background: white;
+  padding: 3px;
+  position: relative;
+}
+.types-list {
+  margin: 10px -12px;
+  border: 1px solid #a09c82;
+  height: 84px;
+  padding-top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.time-list {
+  text-align: right;
+}
+.offer-price {
+  display: flex;
+  align-items: self-start;
+}
+
+/* / dropdown css / */
+.dropdowntt {
+display: inline-block;
+position: relative;
+}
+
+.dd-button {
+display: inline-block;
+border-radius: 4px;
+padding: 10px 30px 10px 20px;
+background-color: #ffffff;
+cursor: pointer;
+white-space: nowrap;
+}
+
+
+.dd-button:hover {
+background-color: #eeeeee;
+}
+.view-offer {
+  border: 1px solid #a09c82;
+  padding: 8px 10px;
+  height: 70px;
+}
+
+
+.dd-input {
+display: none;
+}
+
+.dd-menu {
+position: absolute;
+top: 100%;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 0;
+margin: 2px 0 0 0;
+box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+background-color: #ffffff;
+list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+  margin-left: -43px;
+  margin-top: -24px;
+}
+.dd-menu li {
+padding: 10px 20px;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.dd-menu li:hover {
+background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+display: block;
+margin: -10px -20px;
+padding: 10px 20px;
+}
+.dd-menu li a:hover {
+color: #d8cc4b;
+}
+
+.more-button {
+  text-align: end;
+  font-family: futuramedium;
+}
+.buyer-welcome {
+  display: flex;
+  justify-content: space-between;
+}
+.dd-button2 {
+  font-family: futuramedium;
+}
+
+.dd-menu2 {
+  font-family: futuramedium;
+  z-index: 100;
+}
+tr.sell-info {
+  background: #f6f5e3;
+  padding: 17px 15px;
+  display: block;
+  font-size: 20px;
+  width: 100%;
+}
+.seller-indication {
+  padding: 0px;
+}
+
+svg.svg-inline--fa.fa-circle-info {
+  color: #939188;
+}
+.btn-offer {
+  font-size: 15px;
+  font-family: 'futurabold';
+}
+.btn-view-parchase {
+  font-size: 16px;
+  font-family: 'futuramedium';
+  padding: 7px;
+}
+.counter-offer{
+ margin: 5px 0px;
+}
+.model-header-info{
+  background: antiquewhite;
+}
+.model-font-specing{
+  font-size: initial;
+  font-weight: 600;
+}
+.ok-icon{
+  height: 150px;
+}
+.accent-color {
+  accent-color: #f0e04d;
+}
+.doller-icon
+  {
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 5px;
+    font-size: larger;
+<<<<<<< HEAD
+}
+
+/* 02-01-2023 */
+table td label {
+  text-transform: capitalize;
+=======
+>>>>>>> e13544b145cb9ac678590595349fef3e74314d80
+}

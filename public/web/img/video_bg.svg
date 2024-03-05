@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="647.27" height="433.642" viewBox="0 0 647.27 433.642">
+  <defs>
+    <filter id="Rectangle_80" x="0" y="0" width="647.27" height="433.642" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_80-2" x="0" y="0" width="647.27" height="433.642" filterUnits="userSpaceOnUse">
+      <feOffset dx="-8" dy="-8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.812" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_692" data-name="Group 692" transform="translate(15.877 15.65)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -15.88, -15.65)" filter="url(#Rectangle_80)">
+        <rect id="Rectangle_80-3" data-name="Rectangle 80" width="599.27" height="385.642" rx="97" transform="translate(16 16)" fill="#fff"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -15.88, -15.65)" filter="url(#Rectangle_80-2)">
+        <rect id="Rectangle_80-4" data-name="Rectangle 80" width="599.27" height="385.642" rx="97" transform="translate(16 16)" fill="#fff"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M135.4,68.492,23.1,2.1C13.974-3.294,0,1.938,0,15.275V148.031a15.3,15.3,0,0,0,23.1,13.177L135.4,94.846A15.3,15.3,0,0,0,135.4,68.492Z" transform="translate(227.944 111.287)" fill="#eef4f2"/>
+  </g>
+</svg>

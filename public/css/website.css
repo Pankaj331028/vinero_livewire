@@ -1,0 +1,225 @@
+.invalid-feedback.text-danger {
+    font-size: 14px;
+}
+
+input[type="date"] {
+    box-sizing: border-box;
+    outline: 0;
+    padding: .75rem;
+    position: relative;
+    width: 100%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+input.form-control::file-selector-button {
+    height: calc(1.5em + 1.3rem + 2px);
+}
+
+
+.alert {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    margin: 0 0 20px 0;
+}
+
+.alert .alert-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 1.25rem 0 0;
+}
+
+.alert .alert-icon i {
+    font-size: 2.4rem;
+}
+
+.alert .alert-icon.alert-icon-top {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.alert .alert-text {
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.alert .alert-close {
+    padding: 0 0 0 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.alert .alert-close .close {
+    text-shadow: none !important;
+}
+
+.alert .alert-close i {
+    opacity: 0.8;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.alert .alert-close i:hover {
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    opacity: 1;
+}
+
+.alert.alert-elevate {
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(82, 63, 105, 0.1);
+    box-shadow: 0px 0px 13px 0px rgba(82, 63, 105, 0.1);
+}
+
+.alert.alert-success {
+    background: #0abb87;
+    border: 1px solid #0abb87;
+    color: #ffffff;
+}
+
+.alert.alert-success .alert-icon i {
+    color: #ffffff;
+}
+
+.alert.alert-success .alert-text {
+    color: #ffffff;
+}
+
+.alert.alert-success .alert-text hr {
+    border-top-color: #ffffff;
+    opacity: 0.4;
+}
+
+.alert.alert-success .alert-close i {
+    color: #ffffff;
+}
+
+.alert.alert-outline-success {
+    border: 1px solid #0abb87;
+    color: #0abb87;
+}
+
+.alert.alert-outline-success .alert-icon i {
+    color: #0abb87;
+}
+
+.alert.alert-outline-success .alert-text {
+    color: #0abb87;
+}
+
+.alert.alert-outline-success .alert-close i {
+    color: #0abb87;
+}
+
+.alert.alert-solid-success {
+    background: rgba(10, 187, 135, 0.1);
+    border-color: transparent;
+    color: #0abb87;
+}
+
+.alert.alert-solid-success .alert-icon i {
+    color: #0abb87;
+}
+
+.alert.alert-solid-success .alert-text {
+    color: #0abb87;
+}
+
+.alert.alert-solid-success .alert-close i {
+    color: #0abb87;
+}
+
+.alert.alert-danger {
+    background: #fd397a;
+    border: 1px solid #fd397a;
+    color: #ffffff;
+}
+
+.alert.alert-danger .alert-icon i {
+    color: #ffffff;
+}
+
+.alert.alert-danger .alert-text {
+    color: #ffffff;
+}
+
+.alert.alert-danger .alert-text hr {
+    border-top-color: #ffffff;
+    opacity: 0.4;
+}
+
+.alert.alert-danger .alert-close i {
+    color: #ffffff;
+}
+
+.alert.alert-outline-danger {
+    border: 1px solid #fd397a;
+    color: #fd397a;
+}
+
+.alert.alert-outline-danger .alert-icon i {
+    color: #fd397a;
+}
+
+.alert.alert-outline-danger .alert-text {
+    color: #fd397a;
+}
+
+.alert.alert-outline-danger .alert-close i {
+    color: #fd397a;
+}
+
+.alert.alert-solid-danger {
+    background: rgba(253, 57, 122, 0.1);
+    border-color: transparent;
+    color: #fd397a;
+}
+
+.alert.alert-solid-danger .alert-icon i {
+    color: #fd397a;
+}
+
+.alert.alert-solid-danger .alert-text {
+    color: #fd397a;
+}
+
+.alert.alert-solid-danger .alert-close i {
+    color: #fd397a;
+}
+
+.w-45 {
+    width: 45% !important;
+}

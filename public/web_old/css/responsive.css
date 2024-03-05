@@ -1,0 +1,835 @@
+@media(max-width:767.98px) {
+    .time-list {
+      text-align: inherit;
+      padding-left: 51px;
+  }
+}
+  @media(max-width:575.98px) {
+    .offer {
+        margin-top: 4px;
+    }
+  }
+  @media(max-width:479.98px) {
+    .parent-toolsection {
+        height: calc(100vh - -10px);
+    }
+  }
+/* - seller and buyer dashboard - */
+
+@media(max-width:1399.98px){
+  .shadow.knowabout {
+      width: 468px;
+      top: -66px;
+      left: 116px;
+  }
+.sellersneed p {
+    margin-bottom: 11px;
+}
+.patternsd:before {
+    left: 7px;
+    height: 75%;
+    bottom: -115px;
+}
+nav {
+    justify-content: space-around;
+}
+.signup-img {
+    margin-top: 46px;
+}
+.signup-sec .bg-img {
+    width: 62%;
+}
+section.realestate {
+    background-position: center right;
+}
+.welcome-sec {
+    background-position: center left;
+}
+iframe {
+    width: 100%;
+}
+.subfooter {
+    padding: 40px 0px;
+}
+.sellneed:before {
+    left: 46px;
+    height: 75%;
+    bottom: -138px;
+    width: 500px;
+}
+section.toolsection {
+    margin-top: 186px;
+}
+.buyneed:before {
+    left: 42px;
+    bottom: -135px;
+    width: 468px;
+}
+section.toolsectionbuy {
+    display: block;
+    margin-top: 181px;
+}
+.contactcommission {
+    bottom: -50px !important;
+}
+.contactus {
+    padding: 30px 0px 30px !important;
+}
+
+.signinfomore {
+    background: #f4df4e;
+    padding: 170px 12px 0px;
+    box-sizing: border-box;
+     margin-left: -24px;
+    max-height: 631px;
+    overflow-y: scroll;
+}
+.videocaption {
+    margin-top: 40%;
+}
+}
+
+@media(max-width:1199.98px){
+  .estimateBox {
+    padding: 16px;
+}
+label.form-label {
+    margin-top: 10px;
+}
+.shadow.knowabout {
+    width: 382px;
+    top: -50px;
+    left: 118px;
+}
+section.realestate {
+    background-position: center center;
+}
+.footer-bgimg {
+    object-fit: inherit;
+}
+.patternsd:before {
+    left: 42px;
+    bottom: -90px;
+    height: 78%;
+    width: 39%;
+}
+.sellneed:before {
+    left: 74px;
+    bottom: -136px;
+    width: 371px;
+}
+h1.realstatee {
+    margin-top: 27px;
+}
+.formContactus {
+    padding: 17px 17px 0px !important;
+    margin-top: -50px;
+}
+.submitContact {
+    margin: -51px 0px 10px;
+  }
+.submitbtnhome {
+    padding: 3px 22px 0px;
+}
+h1.needtpo {
+    padding-top: 46px;
+    padding-bottom: 10px;
+}
+section.buyingHOme {
+    padding: 54px 0px;
+}
+.sellersneed p {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+.welcome-sec {
+    padding-bottom: 96px;
+    padding-top: 50px;
+}
+.realstatee {
+    padding: 0px 21px 18px !important;
+    margin:  0px;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+}
+section.toolsection {
+    margin-top: 150px;
+}
+h1.needtpo {
+    font-weight: 600!important;
+}
+.signup-sec{
+  padding: 0px !important;
+}
+.signup-sec .bg-img {
+    margin-top: 0px;
+    width: 100%;
+    left: 0px;
+}
+.sellersneed p {
+    color: #383838;
+    margin-bottom: 11px;
+}
+.signup-img {
+    margin-top: 93px;
+}
+section.toolsectionbuy {
+    margin-top: 130px;
+}
+.signinfomore {
+    background: #f4df4e;
+    padding: 242px 12px 0px;
+    box-sizing: border-box;
+    height: 416px;
+    overflow-y: scroll;
+}
+.videocaption {
+    margin-top: 59%;
+}
+.contactus {
+    padding: 100px 0px 50px;
+}
+.textestimate h2 span {
+    font-size: 15px;
+}
+.textestimate h2 {
+    font-size: 30px;
+}
+.form-label.exra {
+    margin-top: -1px;
+    width: 84%;
+}
+.slidercaption {
+    top: 40%;
+    width: 58%;
+}
+.textdiv p {
+    padding: 25px;
+}
+.subfooter {
+    padding: 30px 0px;
+}
+.sellwel {
+    margin-left: 0px;
+}
+.propertyComm {
+    bottom: 0px;
+}
+.buyneed:before {
+    left: 36px;
+    bottom: -78px !important;
+    height: 100%;
+}
+.boxex {
+    min-height: 146px;
+}
+.mordesignup {
+    height: 592px;
+}
+}
+
+@media(max-width:991.98px){
+  nav ul{
+    position: fixed;
+    top: -100%;
+    background: #2c2f33;
+    width: 100%;
+    display: block;
+    left: 0%;
+    text-align: left;
+    transition: all .5s ease;
+  }
+  nav ul li{
+    margin: 0px 18px;
+    padding: 5px 0px;
+  }
+  h1.needtoo {
+    font-size: 29px;
+}
+  #click:checked ~ ul {
+      top: 10%;
+      left: 0;
+      padding: 0px;
+  }
+  .videocaption {
+    margin-top: 0;
+}
+
+.signformmore {
+  position: initial;
+  top: 0;
+    justify-content: end;
+}
+.signinfomore {
+    padding: 20px 12px 0px;
+}
+.searchsels {
+    width: 166px;
+}
+nav {
+    justify-content: end;
+    margin-right: 81px;
+}
+img.headerbars3 {
+    right: 96px;
+}
+ nav ul li a, nav ul li a.active  {
+ font-size: 16px;
+ display: block;
+ color: #fff;
+ font-weight: 500;
+ padding: 5px 0px;
+ border-bottom: 1px solid #cccccc47;
+}
+ nav ul li a.active, nav ul li a:hover{
+ border-bottom: 1px solid #f4df4e;
+ color: #fff;
+}
+.menu-btn {
+  display: block;
+  color: #01287f;
+  margin-right: 20px;
+  font-size: 23px;
+}
+.logoImg {
+    width: 115px;
+    margin-left: 0;
+}
+.btn.btn-tops {
+    height: 70px;
+    width: 82px;
+}
+.propertyCommission {
+    background: #f4df4e;
+    padding: 18px;
+    text-align: center;
+    border-radius: 3px;
+    color: #383838;
+    position: absolute;
+    box-sizing: border-box;
+    bottom: -50px;
+    left: 88px;
+}
+#nav li a.active {
+    border-bottom: 1px solid #f4df4e;
+}
+.signin4col {
+    position: unset;
+    top: 80px;
+}
+
+.videocaption h1 {
+    color: #212529;
+    text-align: center;
+}
+.welcome-sec {
+    padding-top: 40px;
+}
+h1.needto {
+    font-size: 27px;
+}
+.buysel {
+    font-size: 22px;
+}
+.shadow.knowabout {
+    width: 290px;
+    top: -60px;
+    left: 81px;
+}
+section.buyingHOme {
+    padding: 26px 0px;
+}
+.patternsd:before {
+    left: 32px;
+    bottom: -63px;
+    height: 72%;
+    width: 25%;
+}
+.sellneed:before {
+    left: 33px;
+    bottom: -114px;
+    height: 100%;
+}
+.realstatee {
+    font-size: 30px;
+}
+.signup-sec {
+    padding-bottom: 0px !important;
+}
+h1.needtpo {
+    font-size: 32px;
+}
+.boxone h4 {
+    font-size: 19px;
+}
+.boxone h4 img {
+    width: 23px;
+}
+.signup-img {
+    margin-top: -100px;
+}
+.boxex {
+    padding: 15px 15px;
+}
+.proactive p {
+    line-height: 27px;
+}
+.whoarewe {
+    padding-top: 0px !important;
+}
+.subfooter {
+    padding: 25px 0px;
+}
+.left-bdr {
+    padding-left: 19px;;
+}
+.submitContact {
+    margin: -36px 0px 10px;
+}
+.form-label.exra {
+    font-size: 12px;
+}
+.submitbtnhome {
+    padding: 0px 18px !important;
+}
+h1.needtpo {
+    padding-top: 0px;
+    padding-bottom: 21px;
+}
+.decor::after {
+display: none;
+}
+.decor:hover::after {
+  display: none;
+}
+.topheader.shrink button.btn.btn-tops {
+    height: 70px;
+    width: 82px;
+}
+.topheader.shrink img.logoimg {
+    width: 115px;
+}
+.slidercaption {
+    top: 37%;
+    width: 74%;
+    left: 81px;
+}
+footer {
+    padding: 50px 0px;
+}
+.toolsd {
+    padding: 5px !important;
+}
+.mordesignup {
+    height: 395px;
+}
+.alignheader {
+    display: contents;
+}
+.make-an-offerButton button {
+    width: 48%;
+}
+.offertable {
+    font-size: 18px;
+}
+.makeAnOffer-input {
+    font-weight: 500;
+    font-size: 18px;
+}
+}
+@media(max-width:767.98px){
+  .topheader.shrink button.btn.btn-tops {
+      height: 70px;
+      width: 88px;
+  }
+.modal.show .modal-dialog {
+    position: relative;
+    top: 17%;
+}
+#click:checked ~ ul {
+  top: 69px;
+}
+nav {
+    justify-content: end;
+    margin-right: 76px;
+}
+section.realestate {
+    padding: 26px 0px 200px;
+}
+.tablebg {
+    padding: 10px;
+}
+.propertyCommission {
+    bottom: -200px;
+    left: 13%;
+}
+.realstatee {
+    margin-top: 85%;
+}
+.textdiv p {
+    margin-top: 20px;
+}
+
+.shadow.knowabout {
+    width: 338px;
+    top: 234px;
+    left: 119px;
+}
+.btn.btn-tops {
+    height: 70px;
+    width: 88px;
+}
+.sellwel {
+    margin-top: 10px;
+}
+img.footerLogo {
+    margin-bottom: 10px;
+}
+.patternsd:before {
+    left: 69px;
+    bottom: -454px;
+    height: 253px;
+    width: 350;
+}
+.signup-img {
+    margin: 69px auto 0px;
+}
+.mordesignup {
+    height: 325px;
+}
+h1.realstatee {
+    margin: 21px;
+}
+.searchsels {
+    margin-top: 17px;
+    width: 100%;
+}
+.offer-row {
+    text-align: center;
+  }
+  p.offerp {
+    text-align: justify;
+}
+section.toolsection {
+    margin-top: 488px;
+    margin-bottom: 24px;
+}
+.welcome-sec {
+    padding-bottom: 14px;
+}
+.left-bdr h1 {
+    font-size: 33px;
+}
+.footerte a {
+    color: #383838;
+    font-size: 16px;
+    display: block;
+}
+h1.needtpo {
+    padding-bottom: 0px;
+}
+footer {
+    padding: 50px 0px;
+}
+.socialMediaIcon a {
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+  }
+  .footerText h1 {
+    font-size: 30px;
+}
+#nav li a.active {
+    border-bottom: 1px solid #f4df4e;
+}
+nav ul li a, nav ul li a.active {
+    font-size: 14px;
+    font-weight: 500;
+}
+img.headerbars2 {
+    margin-right: 2px;
+}
+.propet {
+    padding: 30px 0px 51px!important;
+}
+h6.clientfirst {
+    line-height: 21px !important;
+}
+.skylingi {
+    margin: 15px auto;
+}
+.sellneed:before {
+    left: 76px;
+    bottom: -473px;
+    width: 300px;
+    height: 237px;
+}
+section.toolsectionbuy {
+    margin-top: 448px;
+    margin-bottom: 24px;
+}
+.buyneed:before {
+    left: 71px;
+    bottom: -433px !important;
+    height: 100%;
+    width: 350;
+}
+.contactdetails {
+    padding: 26px 0px 51px !important;
+    background-size: contain !important;
+}
+.boxex {
+    min-height: 0;
+}
+.boxhoverIcon {
+    text-align: center;
+}
+.make-an-offerButton button {
+    width: 100%;
+    padding: 6px;
+    margin: 2px 0px !important;
+}
+
+.table-bordered tr {
+    margin: 10px 0px;
+}
+.offerlabel {
+    margin-right: 25px;
+    display: block;
+}
+}
+
+
+@media(max-width:575.98px){
+section.realestate {
+    padding: 14px 0px 237px;
+}
+.propertyCommission {
+    bottom: -217px;
+    left: 39px;
+}
+.contactus {
+    padding: 50px 0px 0px;
+}
+.offertable {
+    font-size: 16px;
+}
+.makeAnOffer-input {
+    font-weight: 500;
+    font-size: 16px;
+}
+img.headerbars2 {
+    margin-right: 4px;
+}
+#click:checked ~ ul {
+    top: 69px;
+}
+.topheader.shrink button.btn.btn-tops {
+    width: 92px;
+}
+nav {
+    height: 70px;
+}
+.shadow.knowabout {
+    width: 338px;
+    top: 254px;
+    left: 99px;
+}
+.patternsd:before {
+    left: 54px;
+    height: 370px;
+    width: 327px;
+    bottom: -478px;
+}
+.realstatee {
+    margin-top: 88%;
+}
+.footerte {
+    color: #383838;
+    display: inline-grid;
+    font-size: 16px;
+}
+.subfooter {
+    padding: 8px 0px;
+}
+.tablebg {
+    padding: 12px;
+    background: #f4df4e;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+.left-bdr h1 {
+    font-size: 30px;
+}
+nav ul li a, nav ul li a.active {
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn.btn-tops {
+    height: 70px;
+    width: 92px;
+}
+.toolsd {
+    padding: 0px 15px !important;
+}
+.signup-img {
+    margin-top: 24px;
+}
+.infors {
+    margin-top: 16px;
+}
+.propet {
+    padding: 30px 0px 30px!important;
+}
+.sellneed:before {
+    left: 52px;
+    bottom: -491px;
+    width: 326px;
+    height: 237px;
+}
+h6.clientfirst {
+    line-height: 26px !important;
+}
+.buyneed:before {
+    bottom: -451px !important;
+}
+section.toolsectionbuy {
+    margin-top: 468px;
+}
+.contactusText p {
+    font-weight: 300;
+    color: #383838;
+    margin: 20px 0px 25px;
+}
+.mordesignup {
+    height: 332px;
+}
+.footerText h1 {
+    margin: 10px;
+}
+.socialMediaIcon {
+    margin: 25px 0px;
+}
+h1.needto {
+    font-size: 30px;
+    margin: 12px 0px !important;
+}
+a.buysell {
+    font-size: 20px;
+}
+a.buysel {
+    font-size: 20px;
+}
+ul.accountpills li button.tabs-account {
+    width: 100%;
+    margin: 1px 0px;
+}
+ul.accountpills li{
+    display:contents;
+}
+.accountpills {
+    margin-bottom: 10px;
+}
+}
+
+@media(max-width:479.98px){
+  .shadow.knowabout {
+      width: 200px;
+      top: 288px;
+      left: 67px;
+  }
+  .patternsd:before {
+      left: 37px;
+      bottom: -339px;
+      height: 200px;
+      width: 200px;
+  }
+.videocaption h1 {
+    margin: 25px 0px 0px 3px;
+    font-size: 32px;
+}
+.tablebg {
+    overflow: scroll;
+}
+footer {
+    padding: 20px 0px;
+}
+section.toolsection {
+    margin-top: 315px;
+}
+.businessModel h6 {
+    margin-bottom: 51px;
+}
+.signup-sec .bg-img {
+    margin-top: 0;
+}
+.ssr {
+    font-size: 21px;
+}
+img.headerbars3 {
+    right: 74px;
+}
+nav {
+    margin-right: 50px;
+}
+.btn.btn-tops {
+    height: 70px;
+    width: 66px;
+}
+.topheader.shrink button.btn.btn-tops {
+    height: 70px;
+    width: 66px;
+}
+.propertyCommission {
+    bottom: -236px;
+    width: 100%;
+    left: 0;
+}
+.propet {
+    padding: 20px 0px !important;
+}
+.homeknow {
+    margin-top: -50px;
+}
+.sellneed:before {
+    left: 36px;
+    bottom: -306px;
+    height: 191px;
+}
+.buyneed:before {
+    bottom: -291px !important;
+    height: 195px;
+    left: 34px;
+}
+section.toolsectionbuy {
+    margin-top: 293px;
+}
+.mordesignup {
+    height: 514px;
+}
+.proactive {
+    padding: 10px !important;
+}
+section.buyingHOme {
+    padding: 15px 0px;
+}
+h1.realstatee {
+    margin: 10px 0px;
+    padding: 0px !important;
+}
+.businessModel h1 {;
+    line-height: 41px;
+}
+.realstatee {
+    margin-top: 75%;
+}
+.boxone {
+    padding: 12px;
+}
+.offerlabel {
+    margin-right: 25px;
+    display: block;
+}
+}

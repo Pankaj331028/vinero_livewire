@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="6653" viewBox="0 0 1920 6653">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.357" r="1.601" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffffd4"/>
+      <stop offset="1" stop-color="#22acc7"/>
+    </radialGradient>
+  </defs>
+  <g id="Background_main" data-name="Background main" stroke="#707070" stroke-width="1" opacity="0.31" fill="url(#radial-gradient)">
+    <rect width="1920" height="6653" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1919" height="6652" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,121 @@
+<svg id="Dashboard" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1921" height="1080" viewBox="0 0 1921 1080">
+  <defs>
+    <filter id="Path_4518" x="143.339" y="39.841" width="45.88" height="51.171" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_4519" x="173.935" y="39.841" width="55.62" height="51.267" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_4520" x="215.032" y="39.458" width="40.629" height="52.083" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.329"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_184" x="1686" y="998" width="150" height="46" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_159" x="85" y="110" width="1772" height="891" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_97" x="626.123" y="94.379" width="673.754" height="64.621" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_218" x="168" y="994.184" width="106" height="36" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-7"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-7"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_62">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-8"/>
+      <feFlood flood-opacity="0.502" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-8"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="VMS_Background" data-name="VMS Background" fill="#0a6f5c" stroke="#707070" stroke-width="1">
+    <rect width="1921" height="1080" stroke="none"/>
+    <rect x="0.5" y="0.5" width="1920" height="1079" fill="none"/>
+  </g>
+  <g id="Group_833" data-name="Group 833" transform="translate(149.339 45.459)">
+    <g transform="matrix(1, 0, 0, 1, -149.34, -45.46)" filter="url(#Path_4518)">
+      <path id="Path_4518-2" data-name="Path 4518" d="M10.069,54.29l5.6,16.139a2.5,2.5,0,0,0,4.724,0l5.6-16.139a2.5,2.5,0,0,1,2.362-1.681h.97a2.5,2.5,0,0,1,2.346,3.366l-10.4,28.171a2.5,2.5,0,0,1-2.346,1.634H16.844A2.5,2.5,0,0,1,14.5,84.146L4.1,55.975a2.5,2.5,0,0,1,2.345-3.366H7.707a2.5,2.5,0,0,1,2.362,1.681" transform="translate(145.39 -6.77)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -149.34, -45.46)" filter="url(#Path_4519)">
+      <path id="Path_4519-2" data-name="Path 4519" d="M64.156,60.722l-8.427,24A1.728,1.728,0,0,1,54.1,85.876H52.189a1.729,1.729,0,0,1-1.635-1.167l-8.24-23.987H42.17l-1.663,23.4a1.728,1.728,0,0,1-1.724,1.606H36.271a1.729,1.729,0,0,1-1.723-1.871L37,54.195a1.728,1.728,0,0,1,1.722-1.586H44.1a1.728,1.728,0,0,1,1.637,1.176l7.62,22.586h.1l7.713-22.592a1.729,1.729,0,0,1,1.636-1.17h5.1a1.728,1.728,0,0,1,1.722,1.581l2.537,29.666a1.729,1.729,0,0,1-1.722,1.876H67.773a1.728,1.728,0,0,1-1.724-1.6l-1.8-23.414Z" transform="translate(145.39 -6.77)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -149.34, -45.46)" filter="url(#Path_4520)">
+      <path id="Path_4520-2" data-name="Path 4520" d="M98.269,76.084c0,6.145-4.513,10.225-11.521,10.225a15.4,15.4,0,0,1-10.386-3.8,2.152,2.152,0,0,1-.364-2.8l.61-.924a2.152,2.152,0,0,1,3.156-.475,11.3,11.3,0,0,0,7.08,2.714c3.072,0,5.185-1.487,5.185-4.368,0-2.592-1.729-3.456-4.561-4.608l-5.184-2.064c-3.6-1.441-6-3.985-6-8.017,0-5.761,4.511-9.745,11.472-9.745a14.359,14.359,0,0,1,8.529,2.648,2.141,2.141,0,0,1,.5,2.919l-.63.945a2.149,2.149,0,0,1-3.009.571,10.217,10.217,0,0,0-5.77-1.947c-2.737,0-4.9,1.345-4.9,3.793,0,2.4,2.064,3.312,3.792,4.032l5.521,2.256c4.656,1.92,6.48,4.513,6.48,8.641" transform="translate(145.39 -6.77)" fill="#fff"/>
+    </g>
+  </g>
+  <g id="Group_853" data-name="Group 853" transform="translate(61.955 6)">
+    <text id="My_dashboard" data-name="My dashboard" transform="translate(216.045 41)" fill="#fff" font-size="36" font-family="Gibson-Medium, Gibson" font-weight="500" letter-spacing="0.01em"><tspan x="19" y="29">MY DASHBOARD</tspan></text>
+  </g>
+  <g id="Help" transform="translate(1503.888 964)">
+    <g transform="matrix(1, 0, 0, 1, -1503.89, -964)" filter="url(#Rectangle_184)">
+      <rect id="Rectangle_184-2" data-name="Rectangle 184" width="132" height="28" rx="14" transform="translate(1692 1004)" fill="#f3f6f6"/>
+    </g>
+    <text id="help-2" data-name="help" transform="translate(212.112 45)" fill="#313131" font-size="18" font-family="Gibson-Light, Gibson" font-weight="300" letter-spacing="0.05em"><tspan x="22" y="14">HELP</tspan></text>
+  </g>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_159)">
+    <rect id="Rectangle_159-2" data-name="Rectangle 159" width="1724" height="843" rx="20" transform="translate(101 126)" fill="#f3f6f6"/>
+  </g>
+  <g id="Group_914" data-name="Group 914" transform="translate(587.123 63.348)">
+    <g transform="matrix(1, 0, 0, 1, -587.12, -63.35)" filter="url(#Rectangle_97)">
+      <rect id="Rectangle_97-2" data-name="Rectangle 97" width="655.754" height="46.621" rx="20" transform="translate(632.12 100.38)" fill="#e4eded"/>
+    </g>
+    <text id="PROPERTY_ADDRESS" data-name="PROPERTY ADDRESS" transform="translate(179 51.342)" font-size="20" font-family="Gibson-Regular, Gibson" letter-spacing="0.05em"><tspan x="97" y="16">PROPERTY ADDRESS</tspan></text>
+    <g id="Group_917" data-name="Group 917" transform="translate(55.515 45.819)">
+      <path id="Path_4539" data-name="Path 4539" d="M30.162,9.031c0,4.992-9.031,20.013-9.031,20.013S12.1,14.023,12.1,9.031a9.031,9.031,0,0,1,18.062,0Z" fill="#0a6f5c"/>
+      <circle id="Ellipse_63" data-name="Ellipse 63" cx="5.582" cy="5.582" r="5.582" transform="translate(14.406 13.191) rotate(-76.714)" fill="#e4eded"/>
+    </g>
+  </g>
+  <g id="Agent_mode_-_bottom" data-name="Agent mode - bottom" transform="translate(101 940)">
+    <path id="Rectangle_230" data-name="Rectangle 230" d="M20,0H220a20,20,0,0,1,20,20v80a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V20A20,20,0,0,1,20,0Z" transform="translate(240 100) rotate(180)" fill="#f3f6f6"/>
+    <g id="yes-no-NA" transform="translate(67 54.184)">
+      <g id="yes-na-no">
+        <g data-type="innerShadowGroup">
+          <rect id="Rectangle_218-2" data-name="Rectangle 218" width="106" height="36" rx="18" fill="#e4eded"/>
+          <g transform="matrix(1, 0, 0, 1, -168, -994.18)" filter="url(#Rectangle_218)">
+            <rect id="Rectangle_218-3" data-name="Rectangle 218" width="106" height="36" rx="18" transform="translate(168 994.18)" fill="#fff"/>
+          </g>
+        </g>
+        <g data-type="innerShadowGroup">
+          <circle id="Ellipse_62-2" data-name="Ellipse 62" cx="14.5" cy="14.5" r="14.5" transform="translate(3.5 3.5)" fill="#0a6f5c"/>
+          <g transform="matrix(1, 0, 0, 1, -168, -994.18)" filter="url(#Ellipse_62)">
+            <circle id="Ellipse_62-3" data-name="Ellipse 62" cx="14.5" cy="14.5" r="14.5" transform="translate(171.5 997.68)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="agent_mode" data-name="agent mode" transform="translate(47 27.077)" fill="#0a6f5c" font-size="20" font-family="Gibson-Regular, Gibson" letter-spacing="0.01em"><tspan x="-62" y="16">AGENT MODE</tspan></text>
+    <text id="ON" transform="translate(182 63.184)" fill="#0a6f5c" font-size="18" font-family="Gibson-Regular, Gibson" letter-spacing="0.01em"><tspan x="-13" y="14">ON</tspan></text>
+    <text id="OFF" transform="translate(17 63.184)" fill="#0a6f5c" font-size="18" font-family="Gibson-Regular, Gibson" letter-spacing="0.01em"><tspan x="-16" y="14">OFF</tspan></text>
+  </g>
+</svg>

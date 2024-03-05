@@ -1,0 +1,1000 @@
+@media (max-width: 1399px) {
+    .banner-left img {
+        margin-top: -100px;
+    }
+
+    .dropdown-inside .form-input-group {
+        width: 50%;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        width: 280px;
+    }
+
+    .offerDeadline .feedback-input{
+        font-size: 14px !important;
+    }
+
+    .virtualMarketingSpace .cWidth {
+        width: 700px !important;
+    }
+
+    .form__radio-button {
+        left: -24px;
+    }
+
+    .better-way .seller-card-inside {
+        min-height: 155px;
+    }
+
+    .buyerOffer .offerManagement .cWidth {
+        width: 100%;
+    }
+
+    .congratulationImg img {
+        width: 45% !important;
+    }
+
+    .deadlineRightSide .cPadding {
+        padding-top: 314px !important;
+    }
+
+    .bottomButtonPanel .cWidth {
+        width: 61% !important;
+    }
+}
+
+@media (max-width: 1280px) {
+    .virtual-market-out li .btn{
+        font-size: 12px;
+        padding: 5px 12px;
+        border-radius: 8px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        min-width: 120px;
+    }
+
+    .better-way-main .button-type-card {
+        font-size: calc(12px + (30 - 12) * ((100vw - 320px) / (1920 - 320)));
+    }
+
+    .createAccount .socialBtn {
+        width: 270px !important;
+    }
+
+    .verificationOfLoan .feedback-input {
+        width: 50% !important;
+        margin: 0;
+    }
+
+    .represented-in .form__radio-group {
+        margin: 0px 4px;
+    }
+
+    .survey-feed-head h3, .survey-feed-dis {
+        font-size: 10px !important;
+    }
+
+    .represented-in .green-label::before {
+        top: -10px;
+        left: -23px;
+    }
+
+    .button-three-toggle {
+        width: 85px !important;
+    }
+
+    .controlMonitorAgent .form__radio-group .w-10 {
+        width: 15% !important;
+    }
+
+    .controlMonitorAgent .form__radio-group .w-90 {
+        width: 85% !important;
+    }
+
+    .controlMonitorAgent .form__radio-button {
+        left: 6px;
+    }
+
+    .better-way .seller-card-inside {
+        min-height: 250px !important;
+    }
+
+    .congratulationImg {
+        width: 85%;
+    }
+
+    .main-heading .link {
+        margin-top: 12px;
+        margin-left: 5px;
+    }
+
+    .second-heading .link {
+        margin-top: -15px;
+        margin-left: 6px;
+    }
+
+    .bottomButtonPanel .cWidth {
+        width: 65% !important;
+    }
+
+    .bidModification .cMargin {
+        margin-bottom: 70px !important;
+    }
+
+    .controlMonitorOuter .form__radio-button {
+        left: -17px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .button-three-toggle {
+        width: 85px !important;
+    }
+
+    .smart-offer-left{
+        width: 75%;
+    }
+
+    .button-with-radio .form__radio-button {
+        top: -22px;
+        left: -4px;
+    }
+
+    .better-way-main .button-type-card {
+        font-size: calc(12px + (26 - 12) * ((100vw - 320px) / (1920 - 320)));
+    }
+
+    .navbar a {
+        padding: 10px;
+        min-width: 120px;
+    }
+    .heading-fix-width {
+        max-width: 600px;
+    }
+
+    .navbar a,
+    .navbar a:focus {
+        min-width: 100px;
+        justify-content: start;
+    }
+
+    .virtual-market-out .btn {
+        padding: 5px 2px;
+    }
+
+    .createAccount .socialBtn {
+        width: 280px !important;
+    }
+
+    .right-button li {
+        margin-right: 0  !important;
+    }
+
+    .button-with-radio .form__radio-button {
+        top: -22px;
+        left: -4px;
+    }
+
+    .represented-in .form__radio-group {
+        margin: 10px !important;
+    }
+
+    .congratulationImg img {
+        width: 55% !important;
+    }
+    
+    .congratulationImg {
+        top: -4px;
+    }
+    
+    .deadlineRightSide .cPadding {
+        padding-top: 284px !important;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .deadlineRightSide .cPadding {
+        padding-top: 0 !important;
+    }
+
+    .congratulationImg img {
+        width: 34% !important;
+    }
+
+    .offer-confirm-topspace {
+        margin-top: 30px;;
+    }
+
+    .dashboard-head-left,
+    .dashboard-head-right {
+        padding-bottom: 20px;
+    }
+
+    .controlMonitor .w-10 {
+        width: 20%;
+    }
+
+    .controlMonitor .w-90 {
+        width: 80%;
+    }
+
+    .toggle-button-cover .card-in-alert {
+        font-size: 18px !important;
+    }
+
+    .virtualMarketingSpace .cWidth {
+        width: 600px !important;
+    }
+
+    #buyer-my-offer .continue-transaction p {
+        text-align: center;
+    }
+
+    .offer-confirm-congratulations {
+        right: -62px;
+    }
+
+    .navbar .dropdown .dropdown:hover>ul {
+        width: 280px;
+        left: -34px;
+        top: 41px;
+    }
+
+    .otp-in .cBorder {
+        border: none !important;
+        border-bottom: solid 1px !important;
+    }
+
+    .represented-in .form__radio-group {
+        margin: 10px !important;
+    }
+
+    .menu-btn.open {
+        display: block;
+    }
+
+    .navbar,
+    .right-button {
+        display: none;
+    }
+
+    .download-app,
+    .login {
+        display: inline-block;
+        padding: 10px 0;
+    }
+
+    .navbar.mobile {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #fff;
+        padding: 20px;
+        width: 100%;
+        border-radius: 10px;
+        overflow-y: scroll;
+        height: 100vh;
+        padding-top: 60px;
+    }
+
+    .navbar.mobile ul {
+        display: block;
+    }
+
+    .menu-btn.close {
+        display: block;
+    }
+
+    .createAccount .z95 {
+        width: 80%;
+    }
+
+    .button-with-radio .form__radio-button {
+        top: -22px;
+        left: -4px;
+    }
+
+    .buyerMPage .heading-fix-width {
+        max-width: 800px;
+    }
+
+    .toggle-button-cover.buyer-cover {
+        width: 700px;
+        padding: 20px;
+    }
+
+    .newPassword .second-heading {
+        width: 450px;
+    }
+
+    .drop {
+        right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .createAccount .second-heading {
+        width: 375px !important;
+    }
+
+    .contact-desc img {
+        float: inherit;
+    }
+
+    .contact-desc .imgSection {
+        text-align: center !important;
+    }
+
+    .leftNavBar li .active {
+        width: 95%;
+    }
+
+    .were-listing-main .button-type-card {
+        height: 45px !important;
+    }
+
+    .buyerLocation {
+        margin-top: 30px !important;
+    }
+
+    .better-way .seller-card-inside {
+        min-height: 150px !important;
+    }
+
+    .controlMonitor .w-10 {
+        width: inherit;
+    }
+
+    .controlMonitor .w-90 {
+        width: inherit;
+    }
+
+    .virtualMarketingSpace .cWidth {
+        width: 470px !important;
+    }
+
+    #buyer-my-offer .continue-transaction p {
+        padding-top: 20px !important;
+    }
+
+    .improveOffer .setPosition {
+        position: inherit !important;
+        bottom: inherit;
+        right: inherit;
+        left: inherit;
+    }
+
+    .offer-confirm-topspace {
+        margin-top: inherit;
+    }
+
+    .offerCancellation .byuyer-fooer-profile, .byuyer-fooer-profile.text-end {
+        margin-right: initial !important;
+    }
+
+    .offer-confirm-congratulations img {
+        width: 80px !important;
+    }
+
+    .congratulations .green-second-heading {
+        font-size: calc(18px + (30 - 24) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    .congratulations .green-three-heading {
+        font-size: calc(14px + (20 - 18) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    .offer-confirm-congratulations {
+        right: 30px;
+    }
+
+    .width75 {
+        width: 75%;
+    }
+
+    .width25 {
+        width: 25%;
+    }
+
+    .selller-broker .button-grey:nth-child(1) {
+        margin: inherit;
+    }
+
+    .button-with-radio .form__radio-button {
+        top: -12px;
+        left: -15px;
+    }
+
+    #header {
+
+        margin: 20px 20px 20px;
+    }
+
+    .banner-main .banner-left .description {
+        width: 100%;
+    }
+
+    .banner-left img {
+        margin-top: -75px;
+    }
+
+    .banner-right {
+        padding-left: 15px;
+    }
+
+    .banner-right .btn.primery {
+        padding: 0px 10px;
+    }
+
+    .selling-right,
+    .buying-left,
+    .qonectin-left {
+        padding-top: 50px;
+        z-index: 996;
+    }
+
+    .selling-main::before,
+    .buying-main::before,
+    .smart-offers-main::before,
+    .faq-main::before {
+        height: 200px;
+        width: 200px;
+    }
+
+    .smart-offers-main::before {
+        bottom: 0px;
+    }
+
+    .footer-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 0 30px;
+    }
+
+    .footer-right {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .footer-right ul {
+        padding: 0px;
+    }
+
+    .sub-heading {
+        margin-bottom: 10px;
+    }
+
+    .width-boxed {
+        max-width: 90%;
+    }
+
+    .heading-before::before {
+        transform: translate(0%, 0%);
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-align: left;
+        padding-left: 35px;
+    }
+
+    .were-listing-main.in-buyer .button-type-card {
+        height: auto;
+    }
+
+    .heading-fix-width {
+        padding-top: 30px;
+    }
+
+    .were-listing .toggle-button-cover {
+        width: 100%;
+    }
+
+    .seller-banner-main .toggle-button-cover {
+        width: 100%;
+    }
+
+    .toggle-button-buyer-cover,
+    .toggle-button-otpin {
+        display: block;
+    }
+
+    .toggle-button-buyer-cover .toggle-button-cover.otp-in,
+    .toggle-button-buyer-cover .toggle-button-cover.otp-out {
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+    .were-listing-main.in-buyer .toggle-button-cover:first-child,
+    .were-listing-main.in-buyer .toggle-button-cover:last-child {
+        width: 100%;
+    }
+
+    .what-can-help .form__radio-group {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .smart-offers-main .selling-right img {
+        width: 75%;
+        bottom: -50px;
+    }
+
+    .faq-main::before {
+        bottom: 0;
+    }
+
+    .toggle-button-buyer-cover .seller-card-inside:first-child {
+        border-right: 0px;
+    }
+
+    .toggle-button-buyer-cover .seller-card-inside {
+        height: auto;
+    }
+
+    .list-card-head .toggle-button-cover:last-child::before {
+        top: -10px;
+        left: -33px;
+    }
+
+    .card-full-cover {
+        padding: 30px 15px;
+    }
+
+    .dashboard-header h4 {
+        padding-left: 5px;
+        vertical-align: bottom;
+        line-height: 14px;
+        margin-bottom: 6px;
+    }
+
+    .row.dashboard-header .dashboard-logo {
+        width: 55px;
+    }
+
+    .dashboard-head-left,
+    .dashboard-head-right {
+        width: auto;
+        padding: 0;
+    }
+
+    .dashboard-head-left {
+        margin: auto;
+    }
+
+    .dashboard-header {
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+
+    .card-box {
+        padding: 15px;
+    }
+
+    .tabs-wrapper.buyer-offer-dashboard-in {
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+
+    .tabs {
+        display: block;
+        width: 100%;
+    }
+
+    .tabs>ul,
+    .tabs section {
+        width: 100%
+    }
+
+    .smart-offer-left {
+        width: 75%;
+        text-align: center;
+    }
+
+    .button-grey.buyer-offer-time {
+        margin-top: 10px;
+    }
+
+    .byuyer-fooer-profile {
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .white-box.history .form__radio-group {
+        width: 48%;
+    }
+
+    .white-box.history .form__radio-group label {
+        padding-top: 3px;
+    }
+
+    .tabs>ul li a,
+    .tabs>ul li a,
+    .tabs>ul li a,
+    .tabs>ul li a:visited {
+        border-radius: 10px;
+    }
+
+    .continue-transaction .agent-mode-help {
+        position: static;
+    }
+
+    .represented-out .represented-in {
+        padding: 0px;
+    }
+
+    .equil-to-section {
+        width: 100%;
+    }
+
+    .property-address-icon i {
+        top: -1px;
+    }
+
+    .survey-feed-head {
+        width: 20%;
+    }
+
+    .form__radio-button {
+        top: 0px;
+    }
+
+    .offer-confirm-topspace-none {
+        margin-top: 0;
+    }
+
+    .loginPanel form .fPassword {
+        padding-top: 7px;
+    }
+
+    .were-listing-main.in-buyer .button-type-card {
+        font-size: 24px !important;
+    }
+
+    .queryFAQ {
+        height: 520px !important;
+    }
+
+    .unlimited-res .sub-heading {
+        height: 55px;
+    }
+
+    .main-heading .link {
+        margin-top: 8px;
+    }
+
+    .list-card-head .toggle-button-cover:last-child::before {
+        top: -34px;
+        left: -40px;
+    }
+
+    .main-heading .link {
+        margin-top: 5px !important;
+        margin-left: 5px !important;
+    }
+
+    .second-heading .link {
+        margin-top: -21px;
+        margin-left: 6px;
+    }
+
+    .bottomButtonPanel .electronic-documents {
+        width: 100%;
+    }
+
+    .bottomButtonPanel .cWidth {
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .bottomButtonPanel .cWidth button {
+        margin: auto !important;
+        margin-bottom: 10px !important;
+    }
+
+    .bottomButtonPanel .agent-mode-help {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .newPassword .second-heading {
+        width: inherit;
+    }
+
+    .congratulationImg img {
+        width: 45% !important;
+    }
+
+    .width25 {
+        width: 30%;
+    }
+
+    .virtualMarketingSpace .cWidth {
+        width: 350px !important;
+    }
+
+    .width75 {
+        width: 70%;
+    }
+
+    .offer-confirm-congratulations img {
+        width: 60px !important;
+    }
+
+    .congratulations .green-second-heading {
+        font-size: calc(12px + (30 - 24) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    .congratulations .green-three-heading {
+        font-size: calc(10px + (20 - 18) * ((100vw - 320px) / (1920 - 320))) !important;
+    }
+
+    .offer-confirm-congratulations {
+        right: 30px;
+    }
+
+    .passwordField .contact-alert {
+        width: 330px;
+    }
+
+    .were-listing-main.in-buyer .button-type-card {
+        font-size: 20px !important;
+    }
+
+    .unlimited-res .sub-heading {
+        height: 55px;
+    }
+
+    .controlMonitor .w-10 {
+        width: 15%;
+    }
+
+    .controlMonitor .w-90 {
+        width: 85%;
+    }
+
+    .myOfferingRightPart button label {
+        font-size: 12px;
+        padding-right: 0 !important;
+    }
+
+    .myOfferingRightPart .buyerOfferRightArrow {
+        width: 15px !important;
+        margin-top: -3px;
+    }
+
+    .myOfferingRightPart button {
+        padding: 10px 25px !important;
+    }
+
+    .white-box.profile-setting {
+        padding: 8px !important;
+        width: 160px !important;
+    }
+
+    .white-box.profile-setting a {
+        font-size: 12px !important;
+    }
+
+    .main-heading .link {
+        margin-top: 10px;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+    .list-card-head .toggle-button-cover:last-child::before {
+        top: -40px;
+    }
+
+    .createAccount .second-heading {
+        width: 340px !important;
+    }
+
+    .createAccount .z95 {
+        width: 90%;
+    }
+
+    .congratulationImg img {
+        width: 60% !important;
+    }
+
+    .unlimited-res .main-heading {
+        font-size: 20px !important;
+    }
+
+    .unlimited-res .description {
+        font-size: 14px;
+    }
+
+    .were-listing-main.in-buyer .button-type-card {
+        font-size: 18px !important;
+    }
+
+    /* .virtualMarketingSpace .cWidth {
+        width: 400px;
+    } */
+
+    .createAccount .z95 {
+        width: 320px;
+    }
+
+    .createAccount .socialBtn {
+        width: 250px !important;
+    }
+
+    .nestedFAQ {
+        top: 40px;
+    }
+
+    .loginPanel form .fPassword {
+        padding-top: 7px;
+    }
+
+    .width25 {
+        width: 35%;
+    }
+
+    .width75 {
+        width: 65%;
+    }
+
+    .continue-transaction button label{
+        font-size: 12px;
+    }
+
+    .buyerOfferRightArrow {
+        width: 18px !important;
+        margin-top: -6px;
+    }
+
+    .continue-transaction button{
+        padding: 8px 14px;
+    }
+
+    .offer-confirm-congratulations {
+        right: 5px;
+    }
+
+    .passwordField .contact-alert {
+        width: 270px;
+    }
+
+    .addProperty button {
+        width: 250px !important;
+        padding: 12px 10px !important;
+    }
+
+    .myOfferingRightPart button {
+        width: 100% !important;
+        padding: 12px 10px !important;
+    }
+
+    .myOfferingRightPart button label {
+        font-size: 11px;
+        padding-right: 0 !important;
+    }
+
+    .myOfferingRightPart .buyerOfferRightArrow {
+        width: 14px !important;
+        margin-top: -3px;
+    }
+
+    .controlMonitorAgent .form__radio-button {
+        left: -6px;
+    }
+
+    .congratulationImg img {
+        width: 48% !important;
+    }
+
+}
+
+@media (max-width: 459px) {
+    .regExpIcon {
+        top: 13px;
+        right: 5px;
+    }
+
+    .profile-pic {
+        width: 65px !important;
+        text-align: center;
+    }
+
+    .buyer-offer-dashboard .smart-offer-left {
+        width: 100% !important;
+    }
+
+    .buyer-offer-dashboard .byuyer-fooer-profile {
+        margin: auto !important;
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1955px) {
+    .deadlineRightSide .cPadding {
+        padding-top: 62%;
+    }
+    
+    .createAccount .socialBtn {
+        width: 300px !important;
+    }
+
+    .virtualMarketingSpace .cWidth {
+        max-width: 750px !important;
+    }
+
+    .smart-offer-left{
+        width: 80%;
+    }
+
+    .toggle-button-cover .card-in-alert {
+        /* font-size: 22px; */
+        line-height: 30px;
+    }
+
+    .better-way .seller-card-inside {
+        min-height: 160px;
+    }
+
+    .congratulationImg img {
+        width: 35%;
+    }
+
+    .second-heading .link {
+        margin-top: -20px;
+    }
+
+    .bidModification .cMargin {
+        margin-bottom: 65px !important;
+    }
+}
+
+@media (max-width: 859px) {
+    .offerApproved .checkbox-alignment label {
+        width: 30px;
+        height: 30px;
+    }
+
+    .offerApproved span {
+        width: 115px;
+    }
+
+    .smart-pricing-checkbox input.good-arrow:checked+span::after {
+        left: 11px;
+        top: 7px;
+    }
+
+    .congratulations .profile-pic {
+        position: absolute !important;
+        right: 0;
+        top: 12px;
+    }
+
+    .congratulations .cPadding {
+        padding-top: 50px;
+    }
+
+    .main-heading .link {
+        margin-top: 15px;
+        margin-left: 5px;
+    }
+
+    .second-heading .link {
+        margin-top: -18px;
+        margin-left: 6px;
+    }
+}
